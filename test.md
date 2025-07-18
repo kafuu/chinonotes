@@ -8,4 +8,6 @@
 - **概率公式**：
   - 减法公式：$P(A-B)=P(A\overline{B})=P(A)-P(AB)$
   - 加法公式：$P(A+B)=P(A)+P(B)-P(AB)$
-![alt text](image.png)
+  - 推广：![alt text](image.png)
+- **古典概型**:样本点有限，每个样本点可能性相同
+- 
