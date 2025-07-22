@@ -129,6 +129,94 @@ Fx={0(x<-1),1/3(x<0),5/6(x<1),1(x>=1)}
 ### 2.5
 ![alt text](image-9.png)
 
+### 2.6
+5/6^9*1/6
 
+### 2.7
+$\lambda$=5
+查表计算
 
+### 2.8
 
+x$\in$[0,1]fx=2x，端点值不影响，任取即可
+fx=0(其他情况)
+
+### $\star$2.9
+
+概率密度的积分需要是1
+C
+
+### 2.10
+
+P(x<1/2)=$\int_0^{1/2}fxdx=1/4$
+PY=0=3/4^3=27/64
+PY>=1=37/64
+
+### 2.11
+$P(X^2\leq5)=\int_{-2}^{\sqrt{5}}$=
+$\sqrt{5}/3$
+
+### 2.12
+$\int_{-\infin}^{+\infty}=1$
+$ksinx|^1_0=k$
+S=2k=1,k=1/2
+（2）
+1/2sinx+1/2(|x|<$\pi/2$)
+0,x<$-\pi/2$
+1,x>$\pi/2$
+
+### 2.13
+互斥：AB=$\empty$
+A=AB则A包含于B
+
+### 2.14（均匀分布）
+X~U(2,5)，区间长度为3
+符合条件的区间长度为2
+P=2/3^3+C322/3^21/3=8+12/27=20/27
+
+### 2.15(指数分布)
+X~E($\lambda$)
+X~fx={$\lambda e^{-\lambda x}$}
+Fx=$1-e^{-\lambda x}$
+Fa=1-$e^{-\lambda a}$
+P(X>a)=$e^{-\lambda a}$
+
+### 2.16（正态分布）
+P(X<20)=1-p
+P(X>0)=1-p
+
+### 2.17(正态分布)
+$\frac{X-\mu}{\sigma}\sim N(0,1)$
+$\mu$=72
+X-72/$\sigma$~N(0,1)
+P(X-72/$\sigma$>24/$\sigma$)=2.3%
+$\frac{24}{\sigma}=2$
+$\sigma=12$
+P=(0.8413-0.5)*2=0.6826
+
+### 2.18
+$X^2$的分布律：
+$X\sim\begin{pmatrix}
+    0,  1,  4\\
+    0.2,0.4,0.4
+\end{pmatrix}$
+$\max(X,1)\sim\begin{pmatrix}
+    1,2\\
+    0.6,0.4
+\end{pmatrix}$
+
+### $\star$2.19
+Fy(y)=P(Y<=y)=P(2X+1<=y)
+Fy(y)=P(Y<=y)=P(X<=$\frac{y-1}{2}$)=Fx($\frac{y-1}{2}$)
+
+### $\star$2.20
+![alt text](image-18.png)
+
+### $\star\star$2.21
+$Fx=\frac{x^3}{2}+\frac{1}{2}$($x\in (-1,1)$)
+$Fy=P(Y<=y)=P(X^2+1<=y)=P(|X|<=\sqrt{y-1})=P(-\sqrt{y-1}<=X<=\sqrt{y-1})$=$Fx(\sqrt{y-1})-Fx(-\sqrt{y-1})$
+$\star\ y<1,Fy=0$
+$y\in[1,2]，Fy=(y-1)^{\frac{3}{2}}$
+$y>2,Fy=1$
+fy=Fy'=$\frac{3}{2}\sqrt{y-1}$($y\in(1,2)$)
+fy=0(其他)

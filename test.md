@@ -19,7 +19,7 @@
 - **贝叶斯公式**：![alt text](image-4.png)
 - **事件独立**：$P(AB)=P(A)*P(B)$==$P(A|B)=P(A)$==$P(B|A)=P(B)$
   - 事件独立的性质：![alt text](image-5.png)
-  - 独立与互斥：不可互推，独立：P(AB)=PAPB，互斥：P(AB)=0
+  - 独立与互斥：不可互推，独立：P(AB)=PAPB，互斥：AB=$\empty$
   - 两两独立不包含PABC=PAPBPC，相互独立包含PABC=PAPBPC
 - **重复独立试验，伯努利概型**：n次独立重复事件
 ## 第二章 一维随机变量及其分布
@@ -45,3 +45,18 @@
     - 几何分布![alt text](image-10.png)    
     - 超几何分布![alt text](image-11.png)
 - **泊松定理**：用于估计n很大，p很小的二项分布，p足够小，n足够大时，可以取$\lambda=pn$计算泊松分布的值来估计二项分布的值：![alt text](image-12.png)![alt text](image-13.png)
+- **连续性随机变量，概率密度**：分布函数存在非负可积函数fx，使得分布函数F(x)=$\int_{-\infin}^xftdt$，就称X为连续型随机变量，fx是X的概率密度
+  - 性质：1.X为连续性随机变量，则Fx连续。2.F'x=fx
+  - fx是某一Fx的密度函数的条件：fx$\geq$0;$\int_{-\infin}^{+\infin}dx=1$
+- **概率的计算** ：1.Fx1-Fx2.2.$\int_a^bfxdx$
+- **常见的连续型随机变量**
+  - 1.均匀分布 $X\sim U(a,b)$![alt text](image-14.png)
+  - 2.指数分布：$X\sim E(\lambda)$![alt text](image-15.png)
+  - 3.正态分布：$X\sim N(\mu,\sigma^2)$![alt text](image-16.png)
+    - 性质：关于$x=\mu$对称；Fx单调递增
+    - $\frac{X-\mu}{\sigma}\sim N(0,1)$ ，$\frac{X-\mu}{\sigma}$服从标准正态分布
+    - 标准正态分布的概率密度和分布函数为：![alt text](image-17.png)
+  - 求Y的分布律：
+    - 若X为离散型随机变量：Y也是离散型
+    - 若X为连续性随机变量：Y可能是连续型，也可能是离散型，甚至两者都不是。连续则先求分布函数再求概率密度
+  - 
